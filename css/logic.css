@@ -1,0 +1,60 @@
+body {
+	background: rgba(0,0,0,.05);
+}
+
+main {
+	background: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+th, td {
+	border: 1px solid;
+	padding: 1px;
+}
+
+td {
+	width: 20px;
+	text-align: center;
+}
+
+.form {
+	border: none;
+}
+
+td.form {
+	width: auto;
+}
+
+.LogicSoal {
+	width: 100%;
+	margin: 0px auto;
+}
+
+@media (min-width: 576px) {
+  .LogicSoal {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+a .list-group-item:hover {
+	background: #f1f2f6;
+}
