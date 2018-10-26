@@ -5,6 +5,7 @@ include 'tplLogic1.php';
 if (isset($_POST['submit'])) {
 	$r = $_POST['range'];
 
+// this Logic use php
 	echo "<table>";
 	for($y=1;$y<=$r;$y++) {
 		echo "<tr>";
